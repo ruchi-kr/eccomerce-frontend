@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- title of the page -->
+  <title>header</title>
+  <!-- bootstrap css cdn links  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- fontawesome cdn links  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--have created and added favicon to the page-->
+  <link rel="icon" href="../images/favicon.jpeg">
+  <!-- link to external css -->
+  <link rel="stylesheet" href="../common/style.css">
+  <style>
+    /* css for nav search box hovering */
+    .box:hover {
+      box-shadow: 1px 1px 22px 5px rgba(0, 0, 0, 0.75);
+    }
+
+    .search::placeholder {
+      background-color: #fff;
+
+    }
+
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- floating text nav -->
+    <marquee id="top" behavior="scroll" direction="left" scrollamount="5" class="fontcolor fs-6 bg-dark border-bottom border-2" >!Beware of
+      imposter sites! Genuine StyleUp products are available only on StyleUp.com | Official App - Play Store:
+      https://bit.ly/3Nyti7U & App Store: https://apple.co/3PfBcEk</marquee>
+    <!-- upper navbar -->
+
+    <div class="container-fluid">
+      <div class="row bg-dark p-1 d-flex">
+        <div class="col-auto offset-md-8 offset-lg-9 offset-xxl-10 ">
+          <i class="fa-solid fa-mobile-screen-button iconcolor"></i><a class="text-decoration-none"
+            href="https://www.nykaafashion.com/app-promo"><span class="text-secondary"> App download</span></a>
+        </div>
+        <div class="col-auto">
+          <i class="fa-regular fa-circle-question iconcolor"></i><a class="text-decoration-none" href="../contact.html"><span
+              class="text-secondary"> help</span></a>
+        </div>
+
+      </div>
+    </div>
+    <!--1st navbar with search section and buttons -->
+    <nav class="navbar navbar-expand-lg bglightcolor">
+      <div class="container-fluid">
+
+        <a class="navbar-brand fw-bolder fs-2 ms-3 fontcolor" style="font-family:cursive; text-shadow: 5px 5px #d2b0e3;"
+          href="../index.html">STYLE UP</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+          style="background-color: #c27ae6; color:#d2b0e3 ;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- search form -->
+          <form class="d-flex m-auto col-lg-6" role="search">
+            <div class="box d-flex border border-0 bg-white py-2 px-1 col-12 my-2 col-12">
+              <i class="fa-solid fa-magnifying-glass d-flex align-items-center mx-2 iconcolor"></i>
+              <input class=" border border-0 fs-5 col-11 col-md-11 col-lg-11 search" type="search"
+                placeholder="Search for products, style, brands" aria-label="Search">
+            </div>
+          </form>
+          <!-- account button -->
+          <a class="btn btn-outline-dark mx-2 py-2 px-1 my-2 border border-0 col-3 col-lg-1 col-sm-2 d-flex justify-content-center align-items-center gap-2"
+            href="../login.html" role="button" type="submit"><i class="fa-regular fa-user"></i>
+            Account </a>
+          <!-- wishlist button -->
+          <a class="btn btn-outline-dark mx-2 py-2 px-1 my-2 border border-0 col-3 col-lg-1 col-sm-2 d-flex justify-content-center align-items-center gap-2"
+            href="../cart.html" role="button" type="submit"><i class="fa-regular fa-heart"></i>
+            Wishlist</a>
+          <!-- cart btton -->
+          <a class="btn btn-outline-dark mx-2 py-2 px-1 my-2 border border-0 col-3 col-lg-1 col-sm-2 d-flex justify-content-center align-items-center gap-2"
+            href="../cart.html" role="button" type="submit"><i class="fa-solid fa-bag-shopping"></i> Cart</a>
+          <!-- dropdown mode button -->
+          <div class="dropdown">
+            <button class="btn btn-outline-dark border border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Mode
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" id="d" value="dark" onclick="dark()"><i class="fa-regular fa-moon"></i></a>
+              </li>
+              <li><a class="dropdown-item" id="l" value="light" onclick="light()"><i class="fa-regular fa-sun"></i></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 2nd nav tab -->
+    <ul class="nav justify-content-center">
+      <li class="nav-item ">
+        <a class="nav-link active fontcolor" aria-current="page" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fontcolor" href="../allproducts.html">All Products</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle fontcolor" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Women
+        </a>
+        <ul class="dropdown-menu ">
+          <li><a class="dropdown-item fontcolor" href="../woman/allproductswomen.html">All Products</a></li>
+          <li><a class="dropdown-item fontcolor" href="../woman/indianwear.html">Indian Wear</a></li>
+          <li><a class="dropdown-item fontcolor" href="../woman/westernwear.html">Western Wear</a></li>
+          <li><a class="dropdown-item fontcolor" href="../woman/sportswear.html">Sports Wear</a></li>
+          <li><a class="dropdown-item fontcolor" href="../woman/sleep&lounge.html">Sleep & Lounge</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle fontcolor" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Men
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item fontcolor" href="../man/allproductsmen.html">All Products</a></li>
+          <li><a class="dropdown-item fontcolor" href="../man/indianwear.html">Indian Wear</a></li>
+          <li><a class="dropdown-item fontcolor" href="../man/westernwear.html">Western Wear</a></li>
+          <li><a class="dropdown-item fontcolor" href="../man/sportswear.html">Sports Wear</a></li>
+          <li><a class="dropdown-item fontcolor" href="../man/sleep&lounge.html">Sleep & Lounge</a></li>
+
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle fontcolor" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Kids
+        </a>
+        <ul class="dropdown-menu ">
+          <li><a class="dropdown-item fontcolor" href="../kids/allproductskids.html">All Products</a></li>
+          <li><a class="dropdown-item fontcolor" href="../kids/indianwear.html">Indian Wear</a></li>
+          <li><a class="dropdown-item fontcolor" href="../kids/westernwear.html">Western Wear</a></li>
+          <li><a class="dropdown-item fontcolor" href="../kids/sportswear.html">Sports Wear</a></li>
+          <li><a class="dropdown-item fontcolor" href="../kids/sleep&lounge.html">Sleep & Lounge</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fontcolor" href="../decor.html">Decor</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link fontcolor" href="../contact.html">Contact</a>
+      </li>
+    </ul>
+    <!-- floating text nav -->
+    <!-- used marquee tag -->
+    <div class="container-fluid border border-start-0 border-end-0 border-5 d-flex justify-content-center ">
+
+      <marquee behavior="scroll" direction="left" scrollamount="12" class="fontcolor fs-5 py-2 my-auto">
+        COD Available for orders above <i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 999. &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp;
+        <i class="fa-sharp fa-solid fa-cart-shopping fa-beat-fade"></i> &nbsp; Free
+        shipping available on all products. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        We deliver
+        Across the globe &nbsp; <i class="fa-solid fa-globe fa-fade"></i>.
+      </marquee>
+    </div>
+  </header>
+</body>
+
+</html>

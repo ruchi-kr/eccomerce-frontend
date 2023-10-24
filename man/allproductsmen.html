@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- title of the page -->
+  <title>allproductsmen page</title>
+  <!-- bootstrap css cdn links  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- fontawesome cdn links  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--have created and added favicon to the page-->
+  <link rel="icon" href="../images/favicons.jpeg">
+  <!-- link to external css -->
+  <link rel="stylesheet" href="../common/style.css">
+  <!-- embedded css -->
+  <style>
+    .card:hover {
+      box-shadow: 1px 1px 15px 1px rgba(166, 164, 168, 0.75);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header of the page -->
+  <header>
+    <div id="header"></div>
+  </header>
+
+  <main>
+    <!-- accordion -->
+    <div class="container my-5">
+      <div class="row justify-content-end">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button border border-1" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  <i class="fa-solid fa-arrow-down-wide-short iconcolor"></i><span class="text-secondary">&nbsp; Sort
+                    By</span>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <input type="radio" id="sortbypopularity">
+                    <label for="sortbypopularity">Popularity</label><br>
+                  <input type="radio" id="sortbydiscount">
+                    <label for="sortbydiscount">Discount</label><br>
+                  <input type="radio" id="sortbybestseller">
+                    <label for="sortbybestseller">Bestseller</label><br>
+                  <input type="radio" id="sortbynewarrival">
+                    <label for="sortbynewarrival">New Arrival</label><br>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- go to top icon -->
+
+    <a href="#top" aria-label="up"><svg class="position-fixed fixed-bottom m-5 upicon"
+        xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-up-circle-fill"
+        viewBox="0 0 16 16">
+        <path
+          d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+      </svg></a>
+
+
+    <!-- pagination -->
+
+    <nav aria-label="Page navigation example ">
+      <ul class="pagination d-flex justify-content-center ">
+        <li class="page-item">
+          <a class="page-link fontcolor" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link fontcolor" href="#">1</a></li>
+        <li class="page-item"><a class="page-link fontcolor" href="#">2</a></li>
+        <li class="page-item"><a class="page-link fontcolor" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link fontcolor" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+   
+
+
+
+  </main>
+
+  <!-- footer of the page -->
+  <footer>
+    <div id="footer"></div>
+  </footer>
+  <!-- link to jquery js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../common/script.js"></script>
+  <!-- bootstrap js cdn links both popper js and min js-->
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

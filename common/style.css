@@ -1,0 +1,114 @@
+/* customized color */
+.bgcolor {
+  background-color: #d2b0e3;
+  background-color: rgb(210, 176, 227);
+}
+.fontcolor {
+  color: #c27ae6 !important;
+  color: rgb(194, 122, 230);
+}
+.bglightcolor {
+  background-color: #e1d1e9;
+}
+.iconcolor {
+  color: #777;
+}
+/* .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+   height: 40vh;
+   overflow: hidden;
+}  */
+
+/* for carousel indicators */
+.carousel-indicators .active {
+  color:  #c27ae6;
+}
+/* for upicon hover */
+.upicon:hover{
+  transform: scale(1.15);
+  fill:#686767;
+}
+.card:hover .toshowonhover{
+  visibility: visible !important;
+}
+
+.card{
+  transition: 1s;
+}
+/* media queries */
+
+/* sm screen size */
+@media only screen and (max-width: 415px) {
+  /* for up icon */
+  .upicon {
+    left: 70vw !important;
+    width: 36px;
+    height: 36px;
+    transition: 2s;
+  }
+  /* animation of shop by size  */
+  @keyframes toleft {
+    0% {right: 80px;}
+    100% {left: 80px;}
+  }
+  @keyframes toright {
+    0% {left: 80px;}
+    100% {right: 80px;}
+  }
+  @keyframes grad {
+    0% {background: linear-gradient(-19deg, #c78fe2 50%, #d2b0e3 50%);}
+    100% {background: linear-gradient(19deg, #d2b0e3 50%, #c78fe2 50%);}
+  }
+}
+/* md screen */
+@media (min-width: 420px) and (max-width: 920px) {
+  .upicon {
+    left: 80vw !important;
+    transition: 2s;
+  }
+   /* animation of shop by size  */
+   @keyframes toleft {
+    0% { right: 180px;}
+    100% { left: 180px;}
+  }
+  @keyframes toright {
+    0% {left: 180px;}
+    100% {right: 180px;}
+  }
+  @keyframes grad {
+    0% {background: linear-gradient(-19deg, #c78fe2 50%, #d2b0e3 50%);}
+    100% {background: linear-gradient(19deg, #d2b0e3 50%, #c78fe2 50%); }
+  }
+}
+/* nest hub screen*/
+@media (min-width: 1020px) and (max-width: 1250px){
+  .card{
+    width: 15rem !important;
+   }
+   #cardbutton{
+    display: none !important;
+   }
+}
+/* lg screen  */
+@media only screen and (min-width: 950px) {
+  .upicon {
+    left: 90vw !important;
+    transition: 2s;
+  }
+    /* animation of shop by size  */
+    @keyframes toleft {
+      0% { right: 230px;}
+      100% {left: 230px;}
+    }
+    @keyframes toright {
+      0% {left: 230px; }
+      100% { right: 230px;}
+    }
+    @keyframes grad {
+      0% { background: linear-gradient(-21deg, #c78fe2 50%, #d2b0e3 50%);}
+      100% { background: linear-gradient(21deg, #d2b0e3 50%, #c78fe2 50%);} 
+  }
+}
+
+

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title of the page -->
+    <title>allproducts kid</title>
+    <!-- bootstrap css cdn links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- fontawesome cdn links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--have created and added favicon to the page-->
+    <link rel="icon" href="./images/favicons.jpeg">
+ <!-- link to external css -->
+ <link rel="stylesheet" href="../common/style.css">
+ <!-- embedded css -->
+ <style>
+  .card:hover{
+  box-shadow:  1px 1px 15px 1px rgba(166, 164, 168, 0.75);
+}
+ </style>
+</head>
+
+<body>
+    <!-- header of the page -->
+    <header>
+        <div id="header"></div>
+    </header>
+
+    <main>
+
+  <!-- carousel image with icon -->
+  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <!-- letter b carousel idicators -->
+      <i class="fa-sharp fa-solid fa-b fa-shake mx-2 active" aria-current="true" data-bs-slide-to="0"
+      aria-label="Slide 1"></i>
+      <!-- letter u carousel idicators -->
+      <i class="fa-sharp fa-solid fa-u fa-shake mx-2" data-bs-slide-to="1" aria-label="Slide 2"></i>
+      
+      <!-- letter y carousel idicators -->
+      <i class="fa-sharp fa-solid fa-y fa-shake mx-2"  data-bs-slide-to="2" aria-label="Slide 3" ></i>
+     
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img
+          src="https://www.shutterstock.com/image-vector/ad-banner-design-kids-clothes-260nw-2191568211.jpg"
+          class="d-block w-100" alt="shopping">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img
+          src="https://images-static.nykaa.com/uploads/2a8fc809-dad9-41aa-92f9-1a27b2036409.jpg?tr=w-2400,cm-pad_resize"
+          class="d-block w-100" alt="shopping">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img
+          src="https://images-static.nykaa.com/uploads/708d4218-2d74-44ca-8ac5-940191601814.jpg?tr=w-2400,cm-pad_resize"
+          class="d-block w-100" alt="shopping">
+      </div>
+     
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span aria-hidden="true"><i class="fa-solid fa-circle-chevron-left fa-2xl fontcolor"></i></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span aria-hidden="true"><i class="fa-solid fa-circle-chevron-right fa-2xl fontcolor"></i></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <img class="w-100 overflow-hidden object-fit-cover border border-5 border-danger rounded-4 my-5 px-0" height="500" src="https://appareldigest.com/wp-content/uploads/2021/08/1b-1-1068x712.jpg" alt="">
+  </div>
+</div>
+<!--total products block -->
+<div class="container mx-auto mt-5 mb-3">
+  <div class="row border border-5">
+    <h4 class="ps-5 my-3 col-lg-6 col-md-6 col-6">kids Indian Wear </h4>
+    <p class="col-lg-4 col-md-4 col-5 my-3 "><i class="fa-solid fa-circle fa-2xs iconcolor ps-5"></i><span
+        class="text-secondary"> 16 items</span></p>
+  </div>
+</div>
+<!-- img only -->
+<div class="container-fluid">
+  <img class="img-fluid" src="https://koranm.com/media/catalog/category/Post_7_1_.jpg" alt="kids indian wear">
+</div>
+<!-- accordion -->
+<div class="container my-5">
+  <div class="row justify-content-end">
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button border border-1" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              <i class="fa-solid fa-arrow-down-wide-short iconcolor"></i><span class="text-secondary">&nbsp; Sort
+                By</span>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <input type="radio" id="sortbypopularity">
+                <label for="sortbypopularity">Popularity</label><br>
+              <input type="radio" id="sortbydiscount">
+                <label for="sortbydiscount">Discount</label><br>
+              <input type="radio" id="sortbybestseller">
+                <label for="sortbybestseller">Bestseller</label><br>
+              <input type="radio" id="sortbynewarrival">
+                <label for="sortbynewarrival">New Arrival</label><br>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- go to top icon -->
+    
+<a href="#top" aria-label="up" ><svg class="position-fixed fixed-bottom m-5 upicon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a>
+
+
+<!-- pagination -->
+   
+<nav aria-label="Page navigation example ">
+    <ul class="pagination d-flex justify-content-center ">
+      <li class="page-item">
+        <a class="page-link fontcolor" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link fontcolor" href="#">1</a></li>
+      <li class="page-item"><a class="page-link fontcolor" href="#">2</a></li>
+      <li class="page-item"><a class="page-link fontcolor" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link fontcolor" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+<!-- ethnic pride section -->
+<div class="container-fluid bgcolor">
+  <!-- title -->
+  <p class="text-center display-4 my-3 p-5 fw-bold fontcolor">ETHNIC FUSION</p>
+  <!-- 1st row -->
+  <div class="row m-2">
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+        src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/tr:w-500,/b9abcd4KW4815AW22BLUE_6.jpg"
+         alt="kidswear">
+      <p class="col-12 text-center fw-bold my-2">Up to 50%</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+        src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/tr:w-500,/da4d992HK-0340_2.jpg"
+        alt="kidswear">
+      <p class="col-12 text-center fw-bold my-2">Up to 10%</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+        src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/h/k/tr:w-500,/hk-0130_1_1dab147b.jpg?rnd=20200526195200"
+        alt="kidswear">
+      <p class="col-12 text-center fw-bold my-2">Up to 40%</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+        src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/e/tr:w-500,/fe991ccKW5246SS23PNK_1.jpg?rnd=20200526195200"
+        alt="kidswear">
+      <p class="col-12 text-center fw-bold my-2">Up to 20%</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+        src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/9/tr:w-500,/c9f7a43EW313005_1.jpg?rnd=20200526195200"
+        alt="kidswear">
+      <p class="col-12 text-center fw-bold my-2">Up to 15%</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+        src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/tr:w-500,/9fbf4ad22AUG10263_1.jpg?rnd=20200526195200"
+        alt="kidswear">
+      <p class="col-12 text-center fw-bold my-2">Up to 25%</p>
+    </div>
+
+  </div>
+  <!-- 2nd row -->
+  <div class="row m-2">
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+      src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/b/tr:w-500,/0b4d0eeKW4825AW22OLVGRN_1.jpg?rnd=20200526195200"
+      alt="kidswear">
+    <p class="col-12 text-center fw-bold my-2">Up to 30%</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+      src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/d/tr:w-500,/bd98ad3KW4346AW22LMYEL_1.jpg?rnd=20200526195200"
+      alt="kidswear">
+    <p class="col-12 text-center fw-bold my-2">Up to 20%</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+      src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/3/tr:w-500,/6313ddcNK_LILDR00002071_1.jpg?rnd=20200526195200"
+      alt="kidswear">
+    <p class="col-12 text-center fw-bold my-2">Up to 50%</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+      src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/d/tr:w-500,/1d0afb1TP10242022_1.JPG?rnd=20200526195200"
+      alt="kidswear">
+    <p class="col-12 text-center fw-bold my-2">Up to 45%</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+      src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/tr:w-500,/6b2a88cKS-PURPLEKHADDI_1.jpg?rnd=20200526195200"
+      alt="kidswear">
+    <p class="col-12 text-center fw-bold my-2">Up to 25%</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-4">
+      <img class="img-fluid"
+      src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/3/tr:w-500,/9307ad3KW4764AW22ONIONPNK_1.jpg?rnd=20200526195200"
+      alt="kidswear">
+    <p class="col-12 text-center fw-bold mt-2 mb-5">Up to 15%</p>
+    </div>
+  </div>
+</div>
+    </main>
+
+    <!-- footer of the page -->
+    <footer>
+        <div id="footer"></div>
+    </footer>
+
+    <!-- link to jquery js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../common/script.js"></script>
+    <!-- bootstrap js cdn links both popper js and min js-->
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

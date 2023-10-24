@@ -1,0 +1,2298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- title of the page -->
+  <title>Homepage</title>
+  <!-- bootstrap css cdn links  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- fontawesome cdn links  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--have created and added favicon to the page-->
+  <link rel="icon" href="./images/favicon.jpeg">
+  <!-- link to external css -->
+  <link rel="stylesheet" href="./common/style.css">
+  <!-- embedded css -->
+  <style>
+    .animgrad {
+      animation-name: grad;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+
+    .animleft {
+      animation-name: toleft;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+
+    .animright {
+      animation-name: toright;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+
+    .card:hover .card-body {
+      visibility: visible !important;
+      position: absolute;
+      bottom: 0;
+      background-color: #ffffff;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header of the page -->
+  <header>
+    <div id="header"></div>
+  </header>
+
+  <main>
+
+
+    <!-- image carousel with indicators -->
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <!-- # hash tag carousel idicators -->
+        <i class="fa-solid fa-hashtag fa-beat-fade active mx-2" aria-current="true" data-bs-slide-to="0"
+        aria-label="Slide 1"></i>
+        <!-- letter s carousel idicators -->
+        <i class="fa-sharp fa-solid fa-s fa-beat-fade  mx-2"  data-bs-slide-to="1"
+          aria-label="Slide 2"></i>
+        <!-- letter h carousel idicators -->
+        <i class="fa-sharp fa-solid fa-h fa-beat-fade mx-2" data-bs-slide-to="2" aria-label="Slide 3"></i>
+        <!-- letter o carousel idicators -->
+        <i class="fa-solid fa-o fa-beat-fade mx-2" data-bs-slide-to="3" aria-label="Slide 4"></i>
+        <!-- letter p carousel idicators -->
+        <i class="fa-sharp fa-solid fa-p fa-beat-fade mx-2" data-bs-slide-to="4" aria-label="Slide 5"></i>
+        <!-- letter n carousel idicators -->
+        <i class="fa-sharp fa-solid fa-n fa-beat-fade mx-2" data-bs-slide-to="5" aria-label="Slide 6"></i>
+        <!-- letter o carousel idicators -->
+        <i class="fa-solid fa-o fa-beat-fade mx-2" data-bs-slide-to="6" aria-label="Slide 7"></i>
+        <!-- letter w carousel idicators -->
+        <i class="fa-sharp fa-solid fa-w fa-beat-fade mx-2" data-bs-slide-to="7" aria-label="Slide 8"></i>
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img
+            src="./images/bannerimage.jpeg"
+            class="d-block w-100" alt="banner">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://images-static.nykaa.com/uploads/a6e3ce77-b314-4a29-8917-15d9e903411d.gif?tr=w-2400,cm-pad_resize"
+            class="d-block w-100" alt="shopping">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://images-static.nykaa.com/uploads/ba4186f3-3956-4d44-99a8-565e6b4cf929.jpg?tr=w-2400,cm-pad_resize"
+            class="d-block w-100" alt="shopping">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://images-static.nykaa.com/uploads/7493a601-b813-4f2c-afff-bae4b9e8c2a2.jpg?tr=w-2400,cm-pad_resize"
+            class="d-block w-100" alt="shopping">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://images-static.nykaa.com/uploads/c0b06ae5-9b6a-4760-831b-4ea3f01c0e69.jpg?tr=w-2400,cm-pad_resize"
+            class="d-block w-100" alt="shopping">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://images-static.nykaa.com/uploads/76b69b4c-4e1c-4813-9f2f-70d29f6b304f.jpg?tr=w-2400,cm-pad_resize"
+            class="d-block w-100" alt="shopping">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://images-static.nykaa.com/uploads/fb7f065b-274e-4753-9eec-676adabe7430.jpg?tr=w-2400,cm-pad_resize"
+            class="d-block w-100" alt="shopping">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://images-static.nykaa.com/uploads/337cf244-95ae-4150-a966-07651f92abad.jpg?tr=w-2400,cm-pad_resize"
+            class="d-block w-100" alt="shopping">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span aria-hidden="true"><i class="fa-solid fa-circle-chevron-left fa-2xl fontcolor"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span aria-hidden="true"><i class="fa-solid fa-circle-chevron-right fa-2xl fontcolor"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- circular image carousel -->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row my-5">
+              <img
+                src="https://images-static.nykaa.com/uploads/aa0b3711-6b2b-4322-9f8f-012712852679.jpg?tr=w-300,cm-pad_resize"
+                class="col-2" alt="shopwomen">
+              <img
+                src="https://images-static.nykaa.com/uploads/80ff8ed1-8360-425f-a267-e9d3bc27c16e.jpg?tr=w-300,cm-pad_resize"
+                class="col-2" alt="shopwomen">
+              <img
+                src="https://images-static.nykaa.com/uploads/ac15966a-16b8-4787-b331-b6dde1c67555.jpg?tr=w-300,cm-pad_resize"
+                class="col-2" alt="shopwomen">
+              <img
+                src="https://images-static.nykaa.com/uploads/6a354456-6632-4ed7-8f7d-ee92a8baaa76.jpg?tr=w-300,cm-pad_resize"
+                class="col-2" alt="shopwomen">
+              <img
+                src="https://images-static.nykaa.com/uploads/48e80a2a-5942-4b5c-83fe-f7b9e4dfb0d2.jpg?tr=w-266.6666666666667,cm-pad_resize"
+                class="col-2" alt="shopwomen">
+              <img
+                src="https://images-static.nykaa.com/uploads/a8899e8e-794c-4083-9c31-062284d2d739.jpg?tr=w-266.6666666666667,cm-pad_resize"
+                class="col-2" alt="shopwomen">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row my-5">
+
+              <img
+                src="https://images-static.nykaa.com/uploads/aa0b3711-6b2b-4322-9f8f-012712852679.jpg?tr=w-300,cm-pad_resize"
+                class="col-2" alt="shopmen">
+              <img
+                src="https://images-static.nykaa.com/uploads/6509d443-a8c8-4c27-be66-ee09895c9961.jpg?tr=w-300,cm-pad_resize"
+                class="col-2" alt="shopmen">
+              <img
+                src="https://images-static.nykaa.com/uploads/6cd03346-8b28-4563-97aa-833c86294965.jpg?tr=w-266.6666666666667,cm-pad_resize"
+                class="col-2" alt="shopmen">
+              <img
+                src="https://images-static.nykaa.com/uploads/46aaee3a-ca6a-4537-b209-eb644476bcd5.jpg?tr=w-266.6666666666667,cm-pad_resize"
+                class="col-2" alt="shopmen">
+              <img
+                src="https://images-static.nykaa.com/uploads/c9725ae1-9e6c-446e-bf6b-052f486a85e8.jpg?tr=w-266.6666666666667,cm-pad_resize"
+                class="col-2" alt="shopmen">
+              <img
+                src="https://images-static.nykaa.com/uploads/2533f2fc-b857-40b4-ac38-c719ea410b00.jpg?tr=w-266.6666666666667,cm-pad_resize"
+                class="col-2" alt="shopmen">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row my-5">
+              <img
+                src="https://images-static.nykaa.com/uploads/aa0b3711-6b2b-4322-9f8f-012712852679.jpg?tr=w-300,cm-pad_resize"
+                class="col-2" alt="shopkids">
+              <img
+                src="https://images-static.nykaa.com/uploads/6509d443-a8c8-4c27-be66-ee09895c9961.jpg?tr=w-300,cm-pad_resize"
+                class="col-2" alt="shopkids">
+              <img
+                src="https://images-static.nykaa.com/uploads/6cd03346-8b28-4563-97aa-833c86294965.jpg?tr=w-266.6666666666667,cm-pad_resize"
+                class="col-2" alt="shopkids">
+              <img
+                src="https://images-static.nykaa.com/uploads/46aaee3a-ca6a-4537-b209-eb644476bcd5.jpg?tr=w-266.6666666666667,cm-pad_resize"
+                class="col-2" alt="shopkids">
+              <img
+                src="https://images-static.nykaa.com/uploads/c9725ae1-9e6c-446e-bf6b-052f486a85e8.jpg?tr=w-266.6666666666667,cm-pad_resize"
+                class="col-2" alt="shopkids">
+              <img
+                src="https://images-static.nykaa.com/uploads/2533f2fc-b857-40b4-ac38-c719ea410b00.jpg?tr=w-266.6666666666667,cm-pad_resize"
+                class="col-2" alt="shopkids">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span aria-hidden="true"><i class="fa-solid fa-circle-chevron-left fa-2xl fontcolor"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span aria-hidden="true"><i class="fa-solid fa-circle-chevron-right fa-2xl fontcolor"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- banner image -->
+
+    <!-- festive offer -->
+    <div class="container-fluid"></div>
+    <img class="w-100 img-fluid mx-auto"
+      src="https://publish-p33712-e119997.adobeaemcloud.com/content/dam/adityabirlafashionandretailprogram/homepage/fy-2023-2024/sep-23/festive-page/festive-strip/5oct/20231005_EthnicSale-HeaderStrip-D.jpg.transform/i1366x532/image.jpeg"
+      alt="banner">
+
+    <!-- featured products section -->
+    <div class="container-fluid mx-auto mt-5 mb-3" style="background-color: rgb(213, 213, 4);">
+      <div class="row text-center">
+        <h4 class="ps-5 my-3 mx-auto text-capitalize text-dark">-- featured products --</h4>
+      </div>
+    </div>
+    <!-- women section -->
+
+    <!-- card carousel for large screen -->
+    <div class="container d-none d-md-none d-sm-none d-lg-block mx-auto position-relative">
+      <div id="carouselExample1" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- carousel item 1 -->
+          <div class="carousel-item active">
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 391 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/c/tr:w-500,/2c8e14bTGAJRA00003885_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="saree">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title mt-1 text-dark">Gajra Gang</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-truncate text-dark">Golabar Blue Pearl Embroidery Saree GGSAR27
+                        (Free Size)
+                      </p>
+                    </div>
+                    <p class="card-text mx-1 text-dark"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        15% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.5 <i class="fa-solid fa-star fontcolor"></i> | 451 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/7/tr:w-500,/d790c91DR011690_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="shirtdress">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#BEST
+                        SELLER</small></span>
+
+                    <h5 class="card-title text-dark mt-1 text-truncate">Twenty Dresses by Nykaa Fashion</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Lavender Tiered Shirt Dress (Set of 2)</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,799 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        40% )</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card3 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.5 <i class="fa-solid fa-star fontcolor"></i> | 451 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/9/tr:w-500,/19c75baLBL101KS664_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="saree">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#STYLIST
+                        PICK</small></span>
+
+                    <h5 class="card-title text-dark mt-1">Lavanya The Label</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Pink Pre Draped Saree with Stitched Blouse
+                      </p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        45% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 2 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 301 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/0/tr:w-500,/e0ccfbc60600048-P00223_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Satin Kimono - Black">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">La Vie En Rose</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Satin Kimono - Black</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,799 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,299 </span><span
+                        class="text-success mx-1">(
+                        25% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.0 <i class="fa-solid fa-star fontcolor"></i> | 251 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/a/tr:w-500,/aaec706DR836RYBL_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="a A-Line dress">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#ONLY
+                        ON STYLEUP</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">FableStreet</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Front Slit Jacket A-Line Dress-Royal Blue</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,899 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,499 </span><span
+                        class="text-success mx-1">(
+                        35% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card3 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.7 <i class="fa-solid fa-star fontcolor"></i> | 751 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/8/tr:w-500,/480f2c4AWLIKPT0102_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="saree">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#BEST
+                        SELLER</small></span>
+
+                    <h5 class="card-title text-dark mt-1">Likha</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Black Georgette Beads Or Stones Party Wear
+                        Saree &
+                        Unstitched Blouse LIKSAR45 (Free Size)</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,225 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,499 </span><span
+                        class="text-success mx-1">(
+                        25% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 3 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 331 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/tr:w-500,/4090ce4254665201_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Sleepwear Set">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#STYLIST
+                        PICK</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Vero Moda Intimates</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Women Multicolor Sleepwear Set with 1 T-Shirt
+                        & 1
+                        Shorts</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,999 </span><span
+                        class="text-success mx-1">(
+                        41% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 391 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/a/tr:w-500,/0a9efb8IGHAIL_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="RED DRESS">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">IT GIRL</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Red Hailey Dress</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        15% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card3 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.7 <i class="fa-solid fa-star fontcolor"></i> | 781 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/tr:w-500,/53f0bbdDIVEN00002851.1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="LONG DRESS">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Divena</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Indigo Floral Printed Shoulder Strip Long
+                        Dress</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        45% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid mx-auto mb-5 position-absolute"
+        style="background-color: rgb(243, 170, 74); bottom:30px;">
+        <div class="row border border-1">
+          <h4 class="ps-5 my-1 mx-auto text-dark">Women's Category -</h4>
+        </div>
+      </div>
+    </div>
+    <!-- card carousel for medium screen -->
+    <div class="container d-none d-md-block d-sm-none d-lg-none mx-auto position-relative">
+      <div id="carouselExample2" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- carousel item 1 -->
+          <div class="carousel-item active">
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-6">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 391 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/c/tr:w-500,/2c8e14bTGAJRA00003885_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="saree">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Gajra Gang</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Golabar Blue Pearl Embroidery Saree GGSAR27
+                        (Free Size)
+                      </p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        15% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.5 <i class="fa-solid fa-star fontcolor"></i> | 451 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/7/tr:w-500,/d790c91DR011690_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="shirtdress">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#BEST
+                        SELLER</small></span>
+
+                    <h5 class="card-title text-dark mt-1 text-truncate">Twenty Dresses by Nykaa Fashion</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Lavender Tiered Shirt Dress (Set of 2)</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,799 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        40% )</span></p>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 2 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-6">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.7 <i class="fa-solid fa-star fontcolor"></i> | 751 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/8/tr:w-500,/480f2c4AWLIKPT0102_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="saree">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#BEST
+                        SELLER</small></span>
+
+                    <h5 class="card-title text-dark mt-1">Likha</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Black Georgette Beads Or Stones Party Wear
+                        Saree &
+                        Unstitched Blouse LIKSAR45 (Free Size)</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,225 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,499 </span><span
+                        class="text-success mx-1">(
+                        25% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.0
+                    <i class="fa-solid fa-star fontcolor"></i> | 251
+                  </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/a/tr:w-500,/aaec706DR836RYBL_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="a A-Line dress">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#ONLY
+                        ON STYLEUP</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">FableStreet</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Front Slit Jacket A-Line Dress-Royal Blue</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,899 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,499 </span><span
+                        class="text-success mx-1">(
+                        35% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- carousel item 3 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-6">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.7 <i class="fa-solid fa-star fontcolor"></i> | 7811 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/tr:w-500,/53f0bbdDIVEN00002851.1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="LONG DRESS">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Divena</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block text-dark card-text text-truncate">Indigo Floral Printed Shoulder Strip Long
+                        Dress</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        45% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.1
+                    <i class="fa-solid fa-star fontcolor"></i> | 391
+                  </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/a/tr:w-500,/0a9efb8IGHAIL_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="RED DRESS">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">IT GIRL</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Red Hailey Dress</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        15% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid mx-auto mb-5 position-absolute"
+        style="background-color: rgb(243, 170, 74); bottom: 40px;">
+        <div class="row border border-1">
+          <h4 class="ps-5 my-1 mx-auto text-dark">Women's Category -</h4>
+        </div>
+      </div>
+    </div>
+    <!-- card carousel for small screen -->
+    <div class="container d-block d-md-none d-sm-block d-lg-none mx-auto position-relative">
+      <div id="carouselExample3" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- carousel item 1 -->
+          <div class="carousel-item active">
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 391 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/c/tr:w-500,/2c8e14bTGAJRA00003885_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="saree">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Gajra Gang</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Golabar Blue Pearl Embroidery Saree GGSAR27
+                        (Free Size)
+                      </p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        15% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 2 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.7 <i class="fa-solid fa-star fontcolor"></i> | 751 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/8/tr:w-500,/480f2c4AWLIKPT0102_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="saree">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#BEST
+                        SELLER</small></span>
+
+                    <h5 class="card-title text-dark mt-1">Likha</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Black Georgette Beads Or Stones Party Wear
+                        Saree &
+                        Unstitched Blouse LIKSAR45 (Free Size)</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,225 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,499 </span><span
+                        class="text-success mx-1">(
+                        25% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 3 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.7 <i class="fa-solid fa-star fontcolor"></i> | 7811 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/tr:w-500,/53f0bbdDIVEN00002851.1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="LONG DRESS">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title mt-1">Divena</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Indigo Floral Printed Shoulder Strip Long
+                        Dress</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        45% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 4 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.5 <i class="fa-solid fa-star fontcolor"></i> | 451 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/7/tr:w-500,/d790c91DR011690_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="shirtdress">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#BEST
+                        SELLER</small></span>
+
+                    <h5 class="card-title text-dark mt-1 text-truncate">Twenty Dresses by Nykaa Fashion</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Lavender Tiered Shirt Dress (Set of 2)</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,799 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        40% )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 5 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.0
+                    <i class="fa-solid fa-star fontcolor"></i> | 251
+                  </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/a/tr:w-500,/aaec706DR836RYBL_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="a A-Line dress">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#ONLY
+                        ON STYLEUP</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">FableStreet</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Front Slit Jacket A-Line Dress-Royal Blue</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,899 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,499 </span><span
+                        class="text-success mx-1">(
+                        35% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 6 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 ">
+                    4.1
+                    <i class="fa-solid fa-star fontcolor"></i> | 391
+                  </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/a/tr:w-500,/0a9efb8IGHAIL_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="RED DRESS">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">IT GIRL</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Red Hailey Dress</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        15% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid mx-auto mb-5 position-absolute womencategory"
+        style="background-color: rgb(243, 170, 74); bottom: 30px; ">
+        <div class="row border border-1">
+          <h4 class="ps-5 my-1 mx-auto text-dark">Women's Category -</h4>
+        </div>
+      </div>
+    </div>
+
+<!-- men section -->
+
+    <!-- card carousel for large screen -->
+    <div class="container d-none d-md-none d-sm-none d-lg-block mx-auto position-relative">
+      <div id="carouselExample4" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- carousel item 1 -->
+          <div class="carousel-item active">
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 391 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/5/tr:w-960,/c540a3d904067_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="saree">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title mt-1 text-dark">Rare Rabbit</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-truncate text-dark">Cedar Green Casual Shirts
+                      </p>
+                    </div>
+                    <p class="card-text mx-1 text-dark"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        15% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    4.5 <i class="fa-solid fa-star fontcolor"></i> | 451 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/b/tr:w-960,/0b075d5KISAH-KA-0005-5438-T303_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Mens Black Jacket Kurta Trouser (Set of 3)">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#BEST
+                        SELLER</small></span>
+
+                    <h5 class="card-title text-dark mt-1 text-truncate">KISAH</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Mens Black Jacket Kurta Trouser (Set of 3)</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,799 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        40% )</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card3 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    4.5 <i class="fa-solid fa-star fontcolor"></i> | 451 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/f/tr:w-960,/2fa7c75SDKT1093_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="White Chikankari Embroidered Kurta">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#STYLIST
+                        PICK</small></span>
+
+                    <h5 class="card-title text-dark mt-1">See Designs</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Men White Chikankari Embroidered Kurta
+                      </p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        45% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 2 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 301 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/tr:w-960,/e641123SUM22SHRT-PNCHK58-M-PLN-LBUBU_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Satin Kimono - Black">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Campus Sutra</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Men Checkered Stylish Casual Shirts</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,799 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,299 </span><span
+                        class="text-success mx-1">(
+                        25% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    4.0 <i class="fa-solid fa-star fontcolor"></i> | 251 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/c/tr:w-960,/9c67af8KL_THECB00017487_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt=" Oversized T-Shirt">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#ONLY
+                        ON STYLEUP</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">The Souled Store</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Harry Potter Nice Navy Blue Color Oversized T-Shirt for Men</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,899 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,499 </span><span
+                        class="text-success mx-1">(
+                        35% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card3 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    4.7 <i class="fa-solid fa-star fontcolor"></i> | 751 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/tr:w-960,/e6d8b1eABI-MN60_0.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Anarkali Kurta Metallic Black">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#BEST
+                        SELLER</small></span>
+
+                    <h5 class="card-title text-dark mt-1">Abhishti</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Banarasi Paneled Anarkali Kurta Metallic Black</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,225 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,499 </span><span
+                        class="text-success mx-1">(
+                        25% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 3 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 331 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/e/tr:w-960,/4e17dc2MV40-0101-BLACK_4.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Convertible Hoodie Jacket">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#STYLIST
+                        PICK</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Jockey</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Mens Microfiber Water Resistant Convertible Hoodie Jacket - Black</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,999 </span><span
+                        class="text-success mx-1">(
+                        41% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 391 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/tr:w-960,/a57691c58671651_first.jpg?rnd=20200526195200"
+                    class="card-img-top" alt=" Men's Black Sweat Pants">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Puma</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Essentials Logo Regular Fit Knitted Men's Black Sweat Pants</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,319 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,799 </span><span
+                        class="text-success mx-1">(
+                        53% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- card3 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    4.7 <i class="fa-solid fa-star fontcolor"></i> | 781 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/tr:w-960,/1aeb306H54456_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Casual Track Top">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Reebok</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Classics Cl F Fr Tracktop Navy Blue Casual Track Top</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>3,300 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>5,999 </span><span
+                        class="text-success mx-1">(
+                        45% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid mx-auto mb-5 position-absolute"
+        style="background-color: rgb(243, 170, 74); bottom:30px;">
+        <div class="row border border-1">
+          <h4 class="ps-5 my-1 mx-auto text-dark">Men's Category -</h4>
+        </div>
+      </div>
+    </div>
+    <!-- card carousel for medium screen -->
+    <div class="container d-none d-md-block d-sm-none d-lg-none mx-auto position-relative">
+      <div id="carouselExample5" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- carousel item 1 -->
+          <div class="carousel-item active">
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-6">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 391 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/5/tr:w-960,/c540a3d904067_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="saree">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title mt-1 text-dark">Rare Rabbit</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-truncate text-dark">Cedar Green Casual Shirts
+                      </p>
+                    </div>
+                    <p class="card-text mx-1 text-dark"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        15% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    4.5 <i class="fa-solid fa-star fontcolor"></i> | 451 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/b/tr:w-960,/0b075d5KISAH-KA-0005-5438-T303_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Mens Black Jacket Kurta Trouser (Set of 3)">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#BEST
+                        SELLER</small></span>
+
+                    <h5 class="card-title text-dark mt-1 text-truncate">KISAH</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Mens Black Jacket Kurta Trouser (Set of 3)</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,799 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        40% )</span></p>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 2 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-6">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 301 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/tr:w-960,/e641123SUM22SHRT-PNCHK58-M-PLN-LBUBU_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Satin Kimono - Black">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Campus Sutra</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Men Checkered Stylish Casual Shirts</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,799 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,299 </span><span
+                        class="text-success mx-1">(
+                        25% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    4.0 <i class="fa-solid fa-star fontcolor"></i> | 251 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/c/tr:w-960,/9c67af8KL_THECB00017487_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt=" Oversized T-Shirt">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#ONLY
+                        ON STYLEUP</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">The Souled Store</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Harry Potter Nice Navy Blue Color Oversized T-Shirt for Men</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,899 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,499 </span><span
+                        class="text-success mx-1">(
+                        35% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- carousel item 3 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-6">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 331 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/e/tr:w-960,/4e17dc2MV40-0101-BLACK_4.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Convertible Hoodie Jacket">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#STYLIST
+                        PICK</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Jockey</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Mens Microfiber Water Resistant Convertible Hoodie Jacket - Black</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,999 </span><span
+                        class="text-success mx-1">(
+                        41% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <!-- card2 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 391 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/tr:w-960,/a57691c58671651_first.jpg?rnd=20200526195200"
+                    class="card-img-top" alt=" Men's Black Sweat Pants">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Puma</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Essentials Logo Regular Fit Knitted Men's Black Sweat Pants</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,319 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,799 </span><span
+                        class="text-success mx-1">(
+                        53% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid mx-auto mb-5 position-absolute"
+        style="background-color: rgb(243, 170, 74); bottom: 40px;">
+        <div class="row border border-1">
+          <h4 class="ps-5 my-1 mx-auto text-dark">Men's Category -</h4>
+        </div>
+      </div>
+    </div>
+    <!-- card carousel for small screen -->
+    <div class="container d-block d-md-none d-sm-block d-lg-none mx-auto position-relative">
+      <div id="carouselExample6" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- carousel item 1 -->
+          <div class="carousel-item active">
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 391 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/5/tr:w-960,/c540a3d904067_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="saree">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title mt-1 text-dark">Rare Rabbit</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-truncate text-dark">Cedar Green Casual Shirts
+                      </p>
+                    </div>
+                    <p class="card-text mx-1 text-dark"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        15% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 2 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 301 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/tr:w-960,/e641123SUM22SHRT-PNCHK58-M-PLN-LBUBU_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Satin Kimono - Black">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Campus Sutra</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Men Checkered Stylish Casual Shirts</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,799 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,299 </span><span
+                        class="text-success mx-1">(
+                        25% OFF )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 3 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 331 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/e/tr:w-960,/4e17dc2MV40-0101-BLACK_4.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Convertible Hoodie Jacket">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#STYLIST
+                        PICK</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Jockey</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Mens Microfiber Water Resistant Convertible Hoodie Jacket - Black</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>2,925 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,999 </span><span
+                        class="text-success mx-1">(
+                        41% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 4 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    4.5 <i class="fa-solid fa-star fontcolor"></i> | 451 </p>
+                  <p
+                    class="position-absolute fa-xs my-5 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    <i class="fa-solid fa-arrow-trend-up fontcolor"></i> Trending
+                  </p>
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/b/tr:w-960,/0b075d5KISAH-KA-0005-5438-T303_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt="Mens Black Jacket Kurta Trouser (Set of 3)">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#BEST
+                        SELLER</small></span>
+
+                    <h5 class="card-title text-dark mt-1 text-truncate">KISAH</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Mens Black Jacket Kurta Trouser (Set of 3)</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,799 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>3,499 </span><span
+                        class="text-success mx-1">(
+                        40% )</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 5 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10 ">
+                    4.0 <i class="fa-solid fa-star fontcolor"></i> | 251 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/c/tr:w-960,/9c67af8KL_THECB00017487_1.jpg?rnd=20200526195200"
+                    class="card-img-top" alt=" Oversized T-Shirt">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small>#ONLY
+                        ON STYLEUP</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">The Souled Store</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Harry Potter Nice Navy Blue Color Oversized T-Shirt for Men</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,899 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,499 </span><span
+                        class="text-success mx-1">(
+                        35% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel item 6 -->
+
+          <div class="carousel-item">
+
+            <!-- insertion of card -->
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <!-- card1 -->
+                <div class="card border border-0 bg-transparent" style="width: 18rem;">
+                  <i class="fa-solid fa-heart-circle-plus toshowonhover position-absolute fa-xl mx-4 mt-4 z-3 end-0 top-0 invisible"
+                    style="color: #ffffff;"></i>
+                  <p
+                    class="position-absolute fa-xs my-3 mx-4 z-3 start-0 top-0 text-light border border-1 border-white p-1 bg-dark bg-opacity-10">
+                    4.1 <i class="fa-solid fa-star fontcolor"></i> | 391 </p>
+
+                  <img
+                    src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/tr:w-960,/a57691c58671651_first.jpg?rnd=20200526195200"
+                    class="card-img-top" alt=" Men's Black Sweat Pants">
+                  <div class="card-body invisible">
+                    <span
+                      class="card-title text-dark border border-info-subtle bg-info bg-opacity-10 fs-6 px-1"><small><i
+                          class="fa-solid fa-truck-fast fa-xs"></i> EXPRESS SHIPPING</small></span>
+
+
+                    <h5 class="card-title text-dark mt-1">Puma</h5>
+                    <!-- truncated text -->
+                    <div class="lh-base">
+                      <p class="d-block card-text text-dark text-truncate">Essentials Logo Regular Fit Knitted Men's Black Sweat Pants</p>
+                    </div>
+                    <p class="card-text text-dark mx-1"><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>1,319 <span
+                        class="text-decoration-line-through text-secondary mx-1"><i
+                          class="fa-solid fa-indian-rupee-sign fa-xs iconcolor"></i>2,799 </span><span
+                        class="text-success mx-1">(
+                        53% OFF)</span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample6" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample6" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid mx-auto mb-5 position-absolute womencategory"
+        style="background-color: rgb(243, 170, 74); bottom: 30px; ">
+        <div class="row border border-1">
+          <h4 class="ps-5 my-1 mx-auto text-dark">Men's Category -</h4>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 70% off sale banner image red -->
+    <div class="container-fluid">
+      <img class="w-100" height="150px"
+        src="https://www.beyondeast.com/cdn/shop/collections/Men-Collection-Banner-Desktop.jpg?v=1694088150&width=1920"
+        alt="sale banner">
+    </div>
+
+
+
+    <!-- shop by size -->
+    <br><br>
+    <div class="container">
+      <div class="d-flex align-items-center gap-3">
+        <p class="display-5 fw-bolder fst-italic text-capitalize"
+          style="font-family: cursive; color: rgb(227, 140, 160);">shop by size
+        </p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-chevron-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+        </svg>
+      </div>
+      <hr style="border-width: 10px; color: rgb(227, 140, 160);">
+    </div>
+    <div class="container animgrad position-relative px-5">
+      <!-- 1st row -->
+      <div class="row d-flex justify-content-center m-5 animleft position-relative">
+
+        <div class="col-lg-2 col-md-2 col-3 my-2">
+          <img class="w-30 img-fluid" src="./images/xxs.png" alt="shopping">
+        </div>
+        <div class="col-lg-2 col-md-2 col-3 my-2">
+          <img class="w-20 img-fluid " src="./images/xs.png" alt="shopping">
+        </div>
+        <div class="col-lg-2 col-md-2 col-3 my-2">
+          <img class="w-20 img-fluid" src="./images/s.png" alt="shopping">
+        </div>
+        <div class="col-lg-2 col-md-2 col-3 my-2">
+          <img class="w-20 img-fluid" src="./images/m.png" alt="shopping">
+        </div>
+      </div>
+      <!-- 2nd row -->
+      <div class="row  d-flex justify-content-center m-5 animright position-relative">
+        <div class="col-lg-2 col-md-2 col-3 my-2">
+          <img class="w-20 img-fluid" src="./images/m.png" alt="shopping">
+        </div>
+        <div class="col-lg-2 col-md-2 col-3 my-2">
+          <img class="w-20 img-fluid" src="./images/l.png" alt="shopping">
+        </div>
+        <div class="col-lg-2 col-md-2 col-3 my-2">
+          <img class="w-20 img-fluid" src="./images/xl.png" alt="shopping">
+        </div>
+        <div class="col-lg-2 col-md-2 col-3 my-2">
+          <img class="w-20 img-fluid" src="./images/xxl.png" alt="shopping">
+        </div>
+      </div>
+    </div>
+
+    <!-- shop by brands -->
+    <br><br>
+    <div class="container">
+      <div class="d-flex align-items-center gap-3">
+        <p class="display-5 fw-bolder fst-italic text-capitalize"
+          style="font-family: cursive;  color: rgb(227, 140, 160);">shop by brands
+        </p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-chevron-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+        </svg>
+      </div>
+      <hr style="border-width: 10px; color: rgb(227, 140, 160);">
+    </div>
+    <!-- scrolling brands -->
+    <marquee behavior="scroll" direction="left" scrollamount="12" class="py-2 m-5">
+      <img class="mx-5" class="px-3"
+        src="https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/10190851/Louis-Vuitton-1.png" width="100px"
+        height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/10190900/Gucci.png"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://designshifu.com/wp-content/uploads/2022/12/DS_Blog_Image_Best_Clothing_Brand_Logos_of_all_Time_3-1024x536.jpg"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6a70jXtaYv8oIorDNd-PuEK0mcP03E4eENiFPwkYcgehAagV6fM-zw-_9zEWzjD9QEcQ&usqp=CAU"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://i.pinimg.com/736x/cb/12/7b/cb127b1351ea184917c452d9d37bf6c1.jpg" width="100px"
+        height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://i.pinimg.com/originals/06/a2/c7/06a2c79fe79300cd7f4798a3a8f2bb85.jpg" width="100px"
+        height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_750,h_400/https://assets.designhill.com/design-blog/wp-content/uploads/2019/04/13-1.jpg"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30171309/392-768x591.png" width="100px"
+        height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://media.designrush.com/inspiration_images/136098/conversions/_1513769277_453_prada1_81278a439727-mobile.jpg"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30143359/2_big1.png" width="100px"
+        height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_750,h_400/https://assets.designhill.com/design-blog/wp-content/uploads/2019/04/11-1.jpg"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://i.pinimg.com/originals/b4/86/8c/b4868c7eae20f878c3f6004c36aebe99.jpg" width="100px"
+        height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://i.pinimg.com/736x/cc/a0/1d/cca01dacfad241286a96122ce3a5cef0.jpg" width="100px"
+        height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://i.pinimg.com/736x/c4/7e/c7/c47ec799c2d9c30ef4018d2dc1347c2e.jpg" width="100px"
+        height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://static.vecteezy.com/system/resources/previews/023/599/608/original/christian-dior-brand-logo-black-design-symbol-luxury-clothes-fashion-illustration-free-vector.jpg"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://designshifu.com/wp-content/uploads/2022/12/DS_Blog_Image_Best_Clothing_Brand_Logos_of_all_Time_18-1024x536.jpg"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://metropolismall.com.cy/wp-content/uploads/2021/05/mango-logo.jpg" width="100px"
+        height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://atd-blogs.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/08/25054918/14-clothing-line-logos.webp"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://i.pinimg.com/736x/3e/87/90/3e87905a0823f82abc78a51bac116b85.jpg" width="100px"
+        height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_750,h_400/http://assets.designhill.com/design-blog/wp-content/uploads/2019/04/19.png"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://www.businessinsider.in/photo/90799143/indian-fashion-labels-are-lining-up-to-go-public-as-fashion-brand-biba-files-for-ipo-after-fabindia.jpg?imgsize=14394"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://static.startuptalky.com/2022/09/Copy-of-Copy-of-to-share-startuptalky--2--1.png"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://i0.wp.com/news.jugaadin.com/wp-content/uploads/2020/07/Fabindia-2.jpg?resize=474%2C356"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://i0.wp.com/news.jugaadin.com/wp-content/uploads/2020/07/allen-solly.png?resize=323%2C156"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://img1.rapidleaks.com/2018/09/Louis-Philippe.jpg" width="100px" height="100px"
+        alt="brandlogo">
+      <img class="mx-5"
+        src="https://cdn.shortpixel.ai/spai/q_lossy+w_924+to_webp+ret_img/brandyuva.in/wp-content/uploads/2018/01/levis-logo.png"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://images.yourstory.com/cs/images/companies/6200986211699064231954585884733274357497856n-1643617910105.jpg"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://static.javatpoint.com/top10-technologies/images/top-10-clothing-brands-in-india5.png" width="100px"
+        height="100px" alt="brandlogo">
+      <img class="mx-5"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScp4HUzDsnFUDU_7gFa-KyJVZmxJfoOBxtWcwKjAn_Z3RX_zI9tzefPVLXJdMWm3ZG8rM&usqp=CAU"
+        width="100px" height="100px" alt="brandlogo">
+      <img class="mx-5" src="https://www.ranklogos.com/wp-content/uploads/2015/06/Puma-Logo.png" width="100px"
+        height="100px" alt="brandlogo">
+
+    </marquee>
+    <!-- shop by occasions -->
+    <br><br>
+    <div class="container">
+      <div class="d-flex align-items-center gap-3">
+        <p class="display-5 fw-bolder fst-italic text-capitalize"
+          style="font-family: cursive;  color: rgb(227, 140, 160);">shop by
+          occasions</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-chevron-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+        </svg>
+      </div>
+      <hr style="border-width: 10px; color: rgb(227, 140, 160);">
+    </div>
+    <!-- images for occasion -->
+    <div class="container" height="20rem">
+      <div class="row my-3" >
+        <div class="col-4">
+          <img class="img-fluid"
+            src="https://images-static.nykaa.com/uploads/58447c2e-a8b1-476e-809d-8b74e372f4dd.jpg?tr=w-480,cm-pad_resize"
+             alt="navratri">
+        </div>
+        <div class="col-4">
+          <img class="img-fluid"
+          src="https://images-static.nykaa.com/uploads/701614df-7869-44f6-a173-fdc3eeeb90a2.jpg?tr=w-480,cm-pad_resize"
+          alt="durga puja">
+        </div>
+        <div class="col-4">
+          <img class="img-fluid"
+          src="https://images-static.nykaa.com/uploads/c423c7f0-b6d7-4b1d-8c23-80380541a282.jpg?tr=w-480,cm-pad_resize"
+          alt="dusshera">
+        </div>
+       
+
+      </div>
+    </div>
+
+    <!-- shop by category -->
+    <br><br>
+    <div class="container">
+      <div class="d-flex align-items-center gap-3">
+        <p class="display-5 fw-bolder fst-italic text-capitalize"
+          style="font-family: cursive;  color: rgb(227, 140, 160);">shop by
+          category</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-chevron-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+        </svg>
+      </div>
+      <hr style="border-width: 10px; color: rgb(227, 140, 160);">
+    </div>
+
+
+
+
+
+    <!-- go to top icon -->
+
+    <a href="#top" aria-label="up"><svg class="position-fixed fixed-bottom m-5 upicon"
+        xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-up-circle-fill"
+        viewBox="0 0 16 16">
+        <path
+          d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+      </svg></a>
+
+    <!-- express delivery section -->
+    <div class="container" style="background-color: rgb(255, 185, 92);">
+      <div class="row ">
+        <h1 class="text-center mt-2 text-dark position-relative animleft">EXPRESS DELIVERY</h1>
+        <div class="col ">
+          <img class="img-fluid col-6 "
+            src="https://static.vecteezy.com/system/resources/previews/012/980/764/original/express-delivery-with-stopwatch-icon-concept-for-shipping-services-modern-label-design-png.png"
+            alt="express delivery">
+        </div>
+        <div class="col-6">
+
+        </div>
+        <p></p>
+      </div>
+    </div>
+    <!-- styleup cares -->
+
+    <div class="container my-5 " style="background-color: rgb(255, 255, 255);">
+      <div class="row border border-5 border-info-subtle px-2">
+        <div class="col-12">
+          <h1 class="text-center my-3 text-info display-2 fw-bolder text-decoration-underline">StyleUp Cares</h1>
+          <p class="text-capitalize  text-dark text-center fs-2 ">we do not ask for your <span class="text-danger ">bank
+              account or card</span> details
+            verbally or telephonically.</p>
+          <p class="text-capitalize text-dark text-center fs-2">we also do not ask for <span class="text-danger">money
+              to participate</span> in any of
+            our offers or run any lucky draws.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </main>
+
+  <!-- footer of the page -->
+  <footer>
+    <div id="footer"></div>
+  </footer>
+
+  <!-- link to jquery js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./common/script.js"></script>
+
+  <!-- bootstrap js cdn links both popper js and min js-->
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
