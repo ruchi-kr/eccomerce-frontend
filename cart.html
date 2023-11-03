@@ -15,32 +15,170 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--have created and added favicon to the page-->
-    <link rel="icon" href="./images/favicons.jpeg">
-     <!-- link to external css -->
-  <link rel="stylesheet" href="./common/style.css">
-<style>
-    
-</style>
+    <link rel="icon" href="./images/favicon.jpeg">
+    <!-- link to external css -->
+    <link rel="stylesheet" href="./common/style.css">
+    <style>
+        .card:hover {
+            box-shadow: 1px 1px 15px 1px rgba(166, 164, 168, 0.75);
+        }
+    </style>
 </head>
 
 <body>
-     <!-- header of the page -->
-     <header>
+    <!-- header of the page -->
+    <header>
         <div id="header"></div>
     </header>
 
     <main>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-12 mb-5 card border-light rounded-0">
+                    <h3 class="fw-bolder text-dark text-center py-3" style="background-color: rgb(243, 170, 74);">Items
+                        in cart</h3>
+                    <div class="d-flex flex-row">
+                        <img class="img-fluid col-4"
+                            src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/c/tr:w-500,/2c8e14bTGAJRA00003885_1.jpg?rnd=20200526195200"
+                            alt="added to cart item">
+                        <div class="col-4 ms-3 my-auto">
+                            <p class=" fs-3 fst-italic">Gajra Gang</p>
+                            <p>Golabar Blue Pearl Embroidery Saree </p>
+                            <p><i class="fa-solid fa-indian-rupee-sign fa-beat-fade"></i> 2,925</p>
+                            <button type="submit" class="btn border-0"><i class="fa-regular fa-trash-can fa-xl fontcolor"></i></button>
+                        </div>
+                        <div class="col-4 my-auto ">
+                           <button type="submit" class="btn border-0"><i class="fa-regular fa-square-minus fa-xl fontcolor"></i></button> 
+                            <input class="col-3" type="number" value="2">
+                            <button type="submit" class="btn border-0"><i class="fa-regular fa-square-plus fa-xl fontcolor"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card border-light rounded-0 mb-3 " style="max-width: 18rem;">
+                        <div class="card-header py-3 fs-4 fw-bolder text-dark text-center rounded-0 "
+                            style="background-color: rgb(243, 170, 74);">Summary</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Price Details</h5>
+                            <p class="card-text text-secondary">Prices are inclusive of all taxes</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-secondary text-capitalize">Bag Total </p>
+                                <p class=""><i class="fa-solid fa-indian-rupee-sign"></i> 6,892</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-secondary text-capitalize">discount on MRP</p>
+                                <p class="text-success"> -<i class="fa-solid fa-indian-rupee-sign"></i> 999</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-secondary text-capitalize">sub total</p>
+                                <p class=""><i class="fa-solid fa-indian-rupee-sign"></i> 5,893</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-secondary text-capitalize">additional discount</p>
+                                <p class=""><i class="fa-solid fa-indian-rupee-sign"></i> 0</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-secondary text-capitalize">convenience charges <i
+                                        class="fa-solid fa-circle-exclamation"></i></p>
+                                <p class=""><i class="fa-solid fa-indian-rupee-sign"></i> 29</p>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-capitalize fw-bolder">you pay</p>
+                                <p class=""><i class="fa-solid fa-indian-rupee-sign"></i> 5,922</p>
+                            </div>
 
+                            <button type="submit"
+                                class="btn btn-success mx-auto my-2 d-flex justify-content-center">Checkout</button>
 
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+            <div class="row my-5 d-flex justify-content-center">
+                <div class="col-6 mx-auto">
+                    <img class="img-fluid"
+                        src="https://dushyantd.sg-host.com/wp-content/uploads/2020/11/SeekPng.com_trust-badge-png_3598721_large.png"
+                        alt="info">
+                </div>
+            </div>
+        </div>
 
+        <div class="container my-5 mx-auto">
 
+            <div class="row gap-3 justify-content-center">
+                <!-- card 1 -->
+                <div class="col-xl-2 col-lg-2 col-md-5">
+                    <div class="card border-1 border-light rounded-0">
+                        <div class="card-body">
+                            <div class="lh-1">
+                                <h4 class="card-title">Loki odinson</h4>
+                                <p class="text-secondary">2 months ago</p>
 
+                                <p>4.2 | <i class="fa-solid fa-star" style="color: #f6e209;"></i> </p>
+                            </div>
+                            <p class="card-text text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laboriosam, repellat!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col-xl-2 col-lg-2 col-md-5">
+                    <div class="card border-1 border-light rounded-0 ">
+                        <div class="card-body">
+                            <div class="lh-1">
+                                <h4 class="card-title">Shubman Gill</h4>
+                                <p class="text-secondary">5 months ago</p>
 
+                                <p>4.8 | <i class="fa-solid fa-star" style="color: #f6e209;"></i> </p>
+                            </div>
+                            <p class="card-text text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laboriosam, repellat!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="col-xl-2 col-lg-2 col-md-5">
+                    <div class="card border-1 border-light rounded-0">
+                        <div class="card-body">
+                            <div class="lh-1">
+                                <h4 class="card-title">Tony stark</h4>
+                                <p class="text-secondary">1 months ago</p>
 
+                                <p>4.9 | <i class="fa-solid fa-star" style="color: #f6e209;"></i> </p>
+                            </div>
+                            <p class="card-text text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laboriosam, repellat!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="col-xl-2 col-lg-2 col-md-5">
+                    <div class="card border-1 border-light rounded-0">
+                        <div class="card-body">
+                            <div class="lh-1">
+                                <h4 class="card-title">Thor odinson</h4>
+                                <p class="text-secondary">2 weeks ago</p>
 
+                                <p>5.0 | <i class="fa-solid fa-star" style="color: #f6e209;"></i> </p>
+                            </div>
+                            <p class="card-text text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laboriosam, repellat!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+<!-- go to top icon -->
 
+<a href="#top" aria-label="up"><svg class="position-fixed fixed-bottom m-5 upicon"
+    xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-up-circle-fill"
+    viewBox="0 0 16 16">
+    <path
+      d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+  </svg></a>
 
     </main>
 

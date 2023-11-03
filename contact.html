@@ -15,9 +15,9 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--have created and added favicon to the page-->
-    <link rel="icon" href="./images/favicons.jpeg">
- <!-- link to external css -->
- <link rel="stylesheet" href="./common/style.css">
+    <link rel="icon" href="./images/favicon.jpeg">
+    <!-- link to external css -->
+    <link rel="stylesheet" href="./common/style.css">
 </head>
 
 <body>
@@ -28,15 +28,47 @@
 
     <main>
 
+        <div class="container my-5">
+            <div class="row ">
+                <h1 class="text-uppercase fw-bold my-5 text-center">contact us</h1>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <img class="img-fluid mb-5" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvcHBpbmd8ZW58MHx8MHx8fDA%3D"
+                        alt="shopping">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label><br>
+                            <input type="text"  placeholder="Enter Your name" class="form-control" id="exampleFormControlInput1">
+                            <div id="emailHelp" class="form-text text-secondary">Mr./Mrs/Miss not Allowed</div>
 
+                        </div>     
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                            <div id="emailHelp" class="form-text text-secondary">We'll never share your email with anyone else.</div>
 
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label text-capitalize ">your message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                    <button type="submit" class="col-12 btn btn-success">Submit</button>
 
+                </div>
+            </div>
+        </div>
 
+<!-- go to top icon -->
 
-
-
-
-
+<a href="#top" aria-label="up"><svg class="position-fixed fixed-bottom m-5 upicon"
+    xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-up-circle-fill"
+    viewBox="0 0 16 16">
+    <path
+      d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+  </svg></a>
 
 
     </main>
@@ -46,11 +78,11 @@
         <div id="footer"></div>
     </footer>
     <!-- link to jquery js -->
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="./common/script.js"></script>
+    <script src="./common/script.js"></script>
     <!-- bootstrap js cdn links both popper js and min js-->
     <!-- popper js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

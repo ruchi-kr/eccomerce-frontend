@@ -1,0 +1,547 @@
+RUCHI KUMARI - 1st sept batch
+
+ruchi.kumari63@gmail.com
+capstone project - frontend development
+
+
+                              ---- This is a descriptive note of my work----
+
+
+--- i started with creating the complete folder structure.
+--- created five folder named men, women, kids, images and common.
+--- in common folder, there's 4 files named footer.html, header.html, script.js and style.css.
+--- each men, women, kids have 5 files named allproducts, indianwear, westernwear, sportswear
+    and sleep&lounge wear.
+--- besides these there's allproducts.html, cart.html, contact.html, decor.html, index.html
+    and login.html.
+--- then added neccessary cdn links to all the pages namely bootstrap css and js cdn links.
+    jquery and fontawesome cdn links as well.    
+--- after creating folders, i created header and footer.
+--- and then dynamically added these to all the pages mentioned above.
+--- i used jquery to complete this task.
+--- all the javascript and jquery code is in external script.js javascript file and this is
+    linked to all of the pages.
+--- i made sure not to include bootstrap and jquery js cdn links to header and footer to
+    avoid duplication of links and prevented toogler issue that arises from this.
+--- all the css is in single style.css file.
+--- css has been used for hovering effects, customized color of font, carousel indicators
+    and background color. 
+--- for almost every styling, i try to rely on bootstrap only.
+--- all the webpages are fully responsive. 
+--- all the webpages are properly commented for ease of understanding to me aswell as to
+    reviewer.
+---
+---
+---
+---
+---
+
+
+                                        ---- extra----
+
+--- have added extra button in navbar with dropdown option as dark mode and light mode.
+--- using this button, user can switch to dark mode and light mode as per their convenience.
+--- there is an extra button named wishlist in navbar which is also connected to cart.html
+--- there's scrolling text that i have included in navbar to make it look more proffessional
+    and dynamic.
+--- to achieve this goal of mine i used <marquee> tag of html.
+--- added favicons to all the webpages which i created myself on canva.
+--- have created an upicon whose position has been fixed at the bottom of the page so user
+    always have an access to it and can used it move to top of the page.
+--- have changed it's size for different devices and has hovering effect on it.
+    on hovering on this upicon, color and size changes for better user experience.
+--- with that it has a color that goes well with my webapp color scheme.
+
+
+
+--- index.html
+
+
+   - this webpage consist of header, main and footer section like every other webpage. 
+   - after header comes carousel.
+   - the carousel i have used is first user interaction autoplay carousel. 
+   - first slide consist of company logo and slogan which i have built on canva myself and
+     wrote my tagline myself.
+   - as this is a clothing eccomerce platform so i named it "styleup" and my company's
+     slogan is "we know you want to.".
+   - so, in carousel i have customized carousel indicators and made it " #shopnow ".
+   - to fulfil this purpose i used font awesome.
+   - i have also customized next and previous icon all the carousels used in this projects.
+   - to match it with color scheme that i have selected which is lavender.
+   - after this, comes another carousel which consist of circular images.
+   - then comes featured products section which consist of further three sub categories named
+     women's , men's and kid's. 
+   - here in this carousel i have cards included which has hovering effect on it.
+   - on hovering on these cards comes up the description of the products including price
+     of products and heart icon(add to wishlist option).
+   - these carousels are also fully responsive. i have made it seperately for large screens,
+     medium screens and small screens to make that possible. 
+   - after these three women's, men's and kid's carousel sections comes shop by section.
+   - this section is further divided into four namely shop by size, shop by brand,
+     shop by occasion and shop by category.
+
+     - shop by size
+       - here i have created animation. created my own images using canva.
+       - to make it fully responsive i have wrote media query and this couldn't be achieved
+         with bootstrap and css only.
+       - for background, i have used linear gradient property only.      
+
+     - shop by brand
+       - here i have marquee tag of HTML to make my brands name scroll and give a proffessional
+         look to my webpage.
+       - there's some 50 brand logo i have added for better visualization.    
+
+     - shop by occasion
+       - then comes shop by occasion, which is dedicated to festivals.
+       - have added images in this section. used bootstrap grid only to make it responsive.    
+
+     - shop by category
+       - this includes images related to different moods. 
+       - responsive.
+
+   - express shiping
+     - this contains an image and text.
+     - i have added animation on title to make it look interactive.
+
+   - style up carousel
+    - this is more like a informative block which tells user that styleup does not
+      conduct any competition and do not ask for bank details.
+    - the pupose to add this section is to make it look realistic.     
+    - this is as well fully responsive.
+
+--- contact.html
+
+
+   - this section has an image and a form.
+   - i made this using bootstrap so it is also fully responsive.
+   - i also have used bootstrap only to create form input fields.
+   - there is one submit button along with input fields.
+   - there's three input field name, email address and message.
+   - fully responsive
+  
+
+--- login.html
+
+
+   - created login page using bootstrap only.
+   - used bootstrap input form to achieve this.
+   - used modal here for different possibilities.
+   - for instance, when user click on login button without entering credentials. 
+     modal popup saying you forgot to enter credentials
+   - and when user enter admin@admin.com as email id and 123456 as password then modal pops up saying
+     congratulations , you have succesfully logged in.
+   - and then comes 3rd possibilities, where if user have entered something else than email id and password that
+     has been set then modal pops up saying warning , invalid email or password. 
+   - for all these three modals, i have added three different images to make it look more lively.
+   - there is hovering effect added on login block.
+   - modal is set to the center of the page.
+   - fully responsive
+  
+
+
+--- cart.html
+
+
+   - in cart i have created two columns one takes 8 column and another takes 4 columns.
+   - again this is responsive and i have tailored it for different devices.
+   - so in first column, there's further division into three columns .
+   - first one contains an image, second one contains description about item that has been
+     added to cart with delete button.
+   - In the third column, there's two font awesome icons " + " and " - " and one input field with value 
+     set between them.
+   - After this, in second column there's complete description related to price breakoff of item and checkout button.
+   - And after this, there comes an image which is placed in the center and has img-fluid applied to it.
+   - and then comes feedback section where i have used card and added feedback of few customers. 
+   - everything is fully reponsive.
+   - 
+
+
+--- allproducts.html
+
+
+   - this webpage has item of all other pages. for instance i have included women, men, kids and decor all variety
+     of items in this webpage. 
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - fully responsive
+
+
+                                              --- women ---
+
+
+-- allproductswomen.html
+
+
+   - this webpage contains items from indian wear women, western wear women, sports wear women and sleep&lounge.
+   - one row has been dedicated to each category.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - fully responsive
+
+
+-- indianwear.html
+
+
+   - this page is dedicated to ethnic wear for women.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's ethnic pride section in this webpage after cards.
+   - then comes footer which is dynamically added. 
+   - fully responsive
+
+
+-- sleep&lounge.html
+
+
+   - this page is dedicated to sleep & lounge wear for women.
+   - this page starts with header followed by carousel like every other page.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's comfort at best section in this webpage after cards.
+   - then comes footer which is dynamically added.
+   - fully responsive
+
+
+-- sportswear.html
+
+
+   - this page is dedicated to sports wear for women.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's active lifestyle section in this webpage after cards.
+   - then comes footer which is dynamically added.
+   - fully responsive
+
+   
+
+-- westernwear.html
+
+
+   - this page is dedicated to western wear for women.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's western fever section in this webpage after cards.
+   - then comes footer which is dynamically added.
+   - fully responsive
+
+
+
+                                              --- men --- 
+
+
+-- allproductsmen.html
+
+
+   - this webpage contains items from indianwear men, westernwear men, sportswear men and sleep&lounge.
+   - one row has been dedicated to each category.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - fully responsive
+
+
+
+-- indianwear.html
+
+   - this page is dedicated to ethnic wear for men.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's ethnic pride section in this webpage after cards.
+   - then comes footer which is dynamically added.
+   - fully responsive
+
+
+-- sleep&lounge.html
+
+
+   - this page is dedicated to sleep & lounge wear for men.
+   - this page starts with header followed by carousel like every other page.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's comfort at best section in this webpage after cards.
+   - then comes footer which is dynamically added.
+   - fully responsive
+
+
+
+-- sportswear.html
+
+
+   - this page is dedicated to sports wear for men.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's active lifestyle section in this webpage after cards.
+   - then comes footer which is dynamically added.
+   - fully responsive
+
+
+
+-- westernwear.html  
+
+
+   - this page is dedicated to western wear for men.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's western fever section in this webpage after cards.
+   - then comes footer which is dynamically added.
+   - fully responsive
+
+
+
+                                              --- kids ---
+
+
+-- allproductskid.html
+
+
+   - this webpage contains items from indian wear kids, western wear kids, sports wear kids and sleep&lounge kids.
+   - one row has been dedicated to each category.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - fully responsive
+
+
+-- indianwear.html
+
+
+   - this page is dedicated to ethnic wear for kids.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's ethnic pride section in this webpage after cards.
+   - then comes footer which is dynamically added.
+   - fully responsive
+
+
+-- sleep&lounge.html
+
+   - this page is dedicated to sleep & lounge wear for kids.
+   - this page starts with header followed by carousel like every other page.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's comfort at best section in this webpage after cards.
+   - then comes footer which is dynamically added.
+   - fully responsive
+
+
+-- sportswear.html
+
+
+   - this page is dedicated to sports wear for kids.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's active lifestyle section in this webpage after cards.
+   - then comes footer which is dynamically added.
+   - fully responsive
+
+
+-- westernwear.html
+
+   - this page is dedicated to western wear for kids.
+   - this page starts with header followed by carousel.
+   - after carousel comes total no. of products available section.
+   - then comes two images which has been styled using grid.
+   - then comes accordion.
+   - then comes the product cards.
+   - in all cards i have added carousel for images.
+   - have customized carousel indicators, carousel next previous, carousel indicator colors.
+   - and on hovering over images heart icon, carousel indicators, next previous, appears.
+   - also, there is hovering effect on all cards.
+   - there's western fever section in this webpage after cards.
+   - then comes footer which is dynamically added.
+   - fully responsive
+
+
+
+                                              --- decor ---
+
+
+
+-- decor.html
+
+
+   - structure of this page is similar to other pages.
+   - it starts with header followed by carousel.
+   - then heading that talks about no. of items.
+   - then images where one is col-start and one is col-end.
+   - then comes accordion.
+   - then comes card. i have added total of 16 cards in this particular webpage.
+   - then added pagination.
+   - and then comes footer section which is dynamically added to every page. 
+   - fully responsive
+
+                                              --- common ---
+
+-- footer.html
+
+
+   - footer started with images arranged using grid in a row.
+   - then came women, men, kids and links section which has been created using row and 4 columns.
+   - these section and all the terms in it is properly linked to respective pages of the webapp.
+   - then comes promotion section which consist of images of playstore and my app stored which
+     is linked to official site of respective store.
+   - promotion section also contains a section where user can sign up for newsletter and contact
+     details has been added.
+   - then comes another section where logo, some text along with images and social media icons has been added.
+   - ecery thing is responsive.
+   - social media links has been linked to nykaa and myntra pages.
+   - then comes popular links section which has display set to none for medium and small devices.
+     this section contains unordered list items.
+   - then the last section which is a copyright section . 
+   - fully responsive 
+
+-- header.html
+
+
+   - header consist of 5 parts.
+   - 1st row is dedicated to important notice like stay away from imposter site and that all styleup
+     products are available only on styleup. and link to official playstore app .
+   - 2 nd row have two terms namely app download and help. appdownload has guideline to downloading app
+     and help section is linked to contact us page.
+   - 3rd row consist of logo, search option, account, wishlist, cart and change mode buttons.
+   - 4th row consist of sub-categories like women, men, kids, decor, allproducts, home and contact.
+   - all three women, men, kids dropdown popsup on hovering over it.
+   - toogler has been added to the navbar.
+   - fully responsive
+
+
+-- script.js
+
+
+   - firstly, i used jquery to dynamically add header and footer to all the webpages.
+   - then i wrote javascript dom feature to create dark and light mode feature.
+   - then there is javascript code for login page. to validate the user.
+   - if user email is admin@admin.com and password 123456 then a modal pop up appers 
+     saying login successful.
+   - and invalid credentials message pops up otherwise.
+   - this has been done using javascript code.
+   - this is as well properly commented to segregrate the different code for 
+     ease of understanding.
+
+
+-- style.css
+
+
+   - there is only one css file that is linked to all the webpages.
+   - have used css for hovering purpose, to give customized colors to fonts, background of my
+     webpage.
+   - for most of the styling have used only bootstrap available classes.
+
+
+
+                                              --- images ---
+
+
+-- here in this folder, i have stored banner image, logo image, favicon image. 
+-- with that there's some size related images as well which i have created on canva.
+-- all these images are made by me on canva.
+-- for rest, i have used only online image address.
+-- so, i won't work offline.
+-- i humbly request you to keep your system connected to internet for better tour of this webapp.
+
+
+
+
+
+
+
